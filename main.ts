@@ -29,6 +29,7 @@ function promedio(series:Serie[]):number{
             let curso = series[index];
             temporadas+=curso.temporadas; 
         }
+        temporadas = temporadas / series.length;
         return temporadas;
 }   
 
